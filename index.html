@@ -1,27 +1,13 @@
-<!DOCTYPE html>
-<html lang="ch">
-<head>
-
-
-  <title>Impassive</title>
-  <!-- link to main stylesheet -->
-  <link href="/css/main.css" rel="stylesheet">
-  <link href="img/title.jpeg" rel="icon">
-
-</head>
-<body>
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/blog">Blog</a></li>
-  </ul>
-</nav>
-<div class="container">
-  <div class="blurb">
-    <h1>Hi there, I'm Hank Quinlan!</h1>
-    <p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a
-        href="/about">Read more about my life...</a></p>
-  </div><!-- /.blurb -->
-</div><!-- /.container -->
-</body>
-</html>
+---
+layout: default
+title: 我的Blog
+---
+<h2>{{ page.title }}</h2>
+<p>最新文章</p>
+<ul>
+  　　　　{% for post in site.posts %}
+  　　　　　　
+  <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title
+    }}</a></li>
+  　　　　{% endfor %}
+</ul>
