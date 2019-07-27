@@ -5,12 +5,12 @@
   i18n: jalpc
   gh_user: yangbiny
   url: https://github.com/yangbiny/forum
-  img: /static/assets/img/landing/jekyll.png
+  img: /static/assets/img/landing/forum.jpeg
   desc: 毕业设计
 
 - name: 线上二维码点餐系统
   i18n: cpythons
   gh_user: yangbiny
   url: https://github.com/yangbiny/restaurant
-  img: /static/assets/img/landing/python.png
+  img: /static/assets/img/landing/resturent.jpeg
   desc: 第一次接触Spring等框架的时候的联系产品
