@@ -10,21 +10,21 @@
     detail: Apr. 2016
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: 实习生
     i18n: company_a_job
   icon: fa-plus-square
   present: true
 
 - name:
-    detail: Company B
+    detail: 攀枝花学院
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: 学校
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: 2016。09 - 2020.06
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: 学生
     i18n: company_b_job
   icon: fa-plus-square
