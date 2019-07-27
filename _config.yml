@@ -15,7 +15,7 @@
     name: Impassive  # Be used at blog posts' author.
     first_name: Impassive  # Be used at index page about me section.
     last_name: s  # Be used at index page about me section.
-    avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+    avatar: /img/title.jpeg  # upload your avatar at directory and edit it.
     github_username:   # Leave blank if you don't have now
     linkedin_id:  # Leave blank if you don't have now
     facebook_username:   # Leave blank if you don't have now
