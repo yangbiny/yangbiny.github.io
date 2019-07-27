@@ -1,13 +1,13 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: 堆糖信息科技有限公司
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: 公司
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: 2019.07
     i18n: company_a_date
   job:
     detail: 实习生
@@ -22,7 +22,7 @@
     detail: 学校
     i18n: company_b_desc
   date:
-    detail: 2016。09 - 2020.06
+    detail: 2016.09 - 2020.06
     i18n: company_b_date
   job:
     detail: 学生

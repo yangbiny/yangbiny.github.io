@@ -3,21 +3,14 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: 基于SpringBoot的技术论坛
   i18n: jalpc
-  gh_user: Yangbin
-  repo: Forum
+  gh_user: yangbiny
   url: https://github.com/yangbiny/forum
   img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  desc: 毕业设计
 
-- name: Python
-  i18n: cpython
-  gh_user: Yangbin
-  repo: cpython
+- name: 线上二维码点餐系统
+  i18n: cpythons
+  gh_user: yangbiny
+  url: https://github.com/yangbiny/restaurant
   img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
-
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  desc: 第一次接触Spring等框架的时候的联系产品
