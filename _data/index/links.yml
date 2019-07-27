@@ -1,12 +1,13 @@
 # links section data
 - last_name: GitEE
   first_name:
-  desc: CEO
+  desc:
   website: https://gitee.com/impassive/events
   email: Impassive
 
 - last_name: Xue
-  first_name: Wu
+  first_name:
   desc:
   website: https://github.com/improvex
   email: 3235139683@qq.com
+  s
