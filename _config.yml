@@ -1,4 +1,6 @@
 baseurl: /
-theme:  jekyll-theme-cayman
+theme: jekyll-text-theme
 header-img: img/title.jpeg
 authot: Impassive
+highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
