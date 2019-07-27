@@ -1,5 +1,5 @@
 baseurl: /
-remote_theme: jekyll-TeXt-theme
+theme: jekyll-text-theme
 header-img: img/title.jpeg
 authot: Impassive
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
