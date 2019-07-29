@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "ElasticSearch 之 聚合查询"
-date:   2017-01-31
-desc: "3 Steps (2 minutes) to Setup Your Personal Website with Jalpc"
-keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
+date:   2019-07-28
+desc: "ElasticSearch 聚合查询"
+keywords: "ElasticSearch,聚合查询,Aggs"
 categories: [Elasticsearch]
 tags: [ElasticSearch,聚合查询]
 icon: icon-html
