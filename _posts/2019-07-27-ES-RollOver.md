@@ -15,7 +15,9 @@ icon: icon-html
 1. max-size：分片的最大大小
 2. max-docs：最大文档数
 3. max-age：索引的最大存活时间
+
 ## 使用
+
 ### 1. 创建一个策略
 
 `
@@ -54,6 +56,7 @@ PUT _ilm/policy/datastream_policy
             "max_docs": 5,
             "max_size": "5m"
 }`
+
 ### 2.创建一个模板
 `PUT _template/datastream_template
 {
