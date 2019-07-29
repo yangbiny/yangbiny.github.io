@@ -20,7 +20,7 @@ icon: icon-html
 
 ### 1. 创建一个策略
 
-`
+```
 PUT _ilm/policy/datastream_policy
 {
   "policy": {
@@ -43,22 +43,24 @@ PUT _ilm/policy/datastream_policy
     }
   }
 }
-`
+```
 
 <br>
 
 ### 注意
 1. datastream_policy为策略的名称
 2. 定义rollover action<br>
-`
+```
 "rollover": {
             "max_age": "7m",
             "max_docs": 5,
             "max_size": "5m"
-}`
+}
+```
 
 ### 2.创建一个模板
-`PUT _template/datastream_template
+```
+PUT _template/datastream_template
 {
   "index_patterns": ["datastream-*"],                 
   "settings": {
@@ -67,25 +69,30 @@ PUT _ilm/policy/datastream_policy
     "index.lifecycle.name": "datastream_policy",      
     "index.lifecycle.rollover_alias": "datastream"    
   }
-}`
+}
+```
 
 ### 3.创建索引
-`PUT datastream-000001
+```
+PUT datastream-000001
 {
   "aliases": {
     "datastream": {
       "is_write_index": true
     }
   }
-}`
+}
+```
 现在已经完成创建<br>
 注意：
 1. 如果最大文档数是3，当插入6条数据的时候，并不会直接创建一个，而是在当前索引上直接创建
 6个文档，如果需要创建出一个新的文档，需要手动执行，才会完成新的索引的创建
-`POST /datastream/_rollover
+```
+POST /datastream/_rollover
 {
   "conditions": {
     "max_docs": 3
   }
-}`
+}
+```
 
