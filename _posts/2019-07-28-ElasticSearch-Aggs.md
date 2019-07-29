@@ -9,7 +9,8 @@ tags: [ElasticSearch,聚合查询]
 icon: icon-html
 ---
 ## 求总和
-`GET /impassive/_search
+`
+GET /impassive/_search
  {
    "size": 1, 
    "aggs": {
@@ -19,10 +20,10 @@ icon: icon-html
        }
      }
    }
- }`
- 
- ## 求平均值
- `
+ }
+`
+## 求平均值
+`
  GET /impassive/_search
   {
     "size": 1, 
@@ -34,10 +35,10 @@ icon: icon-html
       }
     }
   }
-  `
-  ## 求基数
-  基数：互不相同的数据的个数，比如2和3的基数为2，5和5的基数为1
-  `
+`
+## 求基数
+  基数：互不相同的数据的个数，比如2和3的基数为2，5和5的基数为1<br>
+`
 GET /impassive/_search
 {
   "size": 1, 
@@ -48,11 +49,13 @@ GET /impassive/_search
       }
     }
   }
-}`
+}
+`
 
 ## 分组
-根据字段显示分组信息
-`GET /impassive/_search
+根据字段显示分组信息<br>
+`
+GET /impassive/_search
  {
    "size": 1, 
    "aggs": {
@@ -64,7 +67,8 @@ GET /impassive/_search
    }
  }
 `
-显示结果
+<br>
+显示结果<br>
 `{
    "took" : 4,
    "timed_out" : false,
@@ -126,8 +130,8 @@ GET /impassive/_search
    }
  }`
  
- ### 练习
- 根据年龄分组并求平均值，然后根据平均值进行降序排序
+### 练习
+ 根据年龄分组并求平均值，然后根据平均值进行降序排序<br>
  `GET /impassive/_search
   {
     "size": 1, 
