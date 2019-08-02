@@ -4,8 +4,8 @@ title:  "ElasticSearch 之 聚合查询"
 date:   2019-07-28
 desc: "ElasticSearch 聚合查询"
 keywords: "ElasticSearch,聚合查询,Aggs"
-categories: [Elasticsearch]
-tags: [ElasticSearch,聚合查询]
+categories: [Search]
+tags: [Search,ElasticSearch,聚合查询]
 icon: icon-html
 ---
 ## 求总和
