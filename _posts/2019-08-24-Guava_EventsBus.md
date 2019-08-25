@@ -87,6 +87,7 @@ public class DataObserver2 {
 }
 
 ```
+
 观察者会根据EventBus.post()传入的参数类型，通知相关类型的观察者。
 
 ```java
@@ -108,6 +109,7 @@ public class Application {
     EventBusCenter.post("test");
     EventBusCenter.post(123);
   }
+  
 }
 ```
 
