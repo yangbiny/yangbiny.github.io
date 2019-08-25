@@ -88,6 +88,7 @@ public class DataObserver2 {
 
 ```
 观察者会根据EventBus.post()传入的参数类型，通知相关类型的观察者。
+
 ```java
 import cn.pzhu.impassive.logis.eventbus.DataObserver1;
 import cn.pzhu.impassive.logis.eventbus.DataObserver2;
@@ -107,12 +108,11 @@ public class Application {
     EventBusCenter.post("test");
     EventBusCenter.post(123);
   }
-
 }
-
 ```
 
 # 实现原理
 当调用register的时候，会解析这一个对象，通过反射解析出改对象中的方法的信息，会将所有属
 于相同类型的监听者放在一个监听器中。使用的是Multimap，与传统的Map相比，实现了一对多的
 存储。调用post的时候，逐个遍历并执行（根据参数类型）
+
