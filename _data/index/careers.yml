@@ -7,6 +7,21 @@
     detail: 公司
     i18n: company_a_desc
   date:
+    detail: 2020.07
+    i18n: company_a_date
+  job:
+    detail: Java 后端开发工程师
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: 堆糖信息科技有限公司
+    i18n: company_a
+  desc:
+    detail: 公司
+    i18n: company_a_desc
+  date:
     detail: 2019.07
     i18n: company_a_date
   job:
