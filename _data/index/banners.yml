@@ -2,8 +2,8 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: http://logistics.cdn.cone4.top/34b373d5-header_one.jpg
+- src: static/assets/img/banner/java.png
   title: first banner image
 
-- src: http://logistics.cdn.cone4.top/d2d3dc9d-header_two.jpg
+- src: static/assets/img/banner/download.png
   title: second banner image
