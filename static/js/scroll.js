@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('body').scrollspy({
-        target: '.navbar-fixed-top',
+        target: '.navbar-scroll',
         offset: 80
     });
 
