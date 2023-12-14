@@ -1,5 +1,7 @@
 # Welcome to Jekyll!
 
+theme: jekyll-theme-hacker
+
 # Website settings
 title: Impassive
 description: Impassive's blog
