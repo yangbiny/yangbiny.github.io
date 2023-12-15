@@ -3,13 +3,9 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -21,23 +17,19 @@ tagline: 发发的开发博客 # it will display as the sub-title
 description: >- # used by seo meta and the atom feed
   一个开发者，他在做什么呢？
 
-# Fill in the protocol & hostname for your site.
-# e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://github.com/yangbiny/yangbiny.github.io"
 
 github:
-  username: yangbiny # change to your github username
+  username: yangbiny
 
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: 杨廷发
-  email: impassive@aliyun.com # change to your email address
+  email: impassive@aliyun.com
   links:
-    - https://github.com/yangbiny # change to your github homepage
+    - https://github.com/yangbiny
 
-google_site_verification: # fill in to your verification string
+google_site_verification: CKvg80W7n66VO8q3L1vx3okGKiz7wFMx8wypjGt7dI8
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -56,7 +48,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: light
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -94,7 +86,7 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
+    enabled: true
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development|production]
@@ -102,10 +94,10 @@ assets:
 pwa:
   enabled: true # the option for PWA feature
 
-paginate: 10
+paginate: 20
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
