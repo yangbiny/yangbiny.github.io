@@ -1,1 +1,1 @@
-gem "jekyll-text-theme"
+gem "jekyll-theme-hacker"
