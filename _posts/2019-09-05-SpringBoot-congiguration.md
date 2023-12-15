@@ -1,11 +1,10 @@
 ---
-layout: post
 title:  "SpringBoot 配置文件加载顺序"
 date:   2019-09-05
 desc: "Spring,SpringBoot"
 keywords: "Spring,SpringBoot,配置文件"
 categories: [Spring]
-tags: [Spring]
+tags: [spring]
 icon: icon-html
 ---
 

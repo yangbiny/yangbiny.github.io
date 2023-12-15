@@ -1,11 +1,10 @@
 ---
-layout: post
 title:  "Logrotate"
 date:   2019-10-24
 desc: "Logrotate"
 keywords: "Linux"
 categories: [Linux]
-tags: [Linux]
+tags: [linux]
 icon: icon-html
 ---
 # logrotate是什么

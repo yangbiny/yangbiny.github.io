@@ -1,1 +1,1 @@
-gem "jekyll-text-theme"
+gem "jekyll-theme-chirpy", "~> 6.3", ">= 6.3.1"

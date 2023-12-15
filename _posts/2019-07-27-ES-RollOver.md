@@ -1,11 +1,10 @@
 ---
-layout: post
 title:  "ElasticSearch 之 RollOver"
 date:   2019-07-29
 desc: "ElasticSearch 之 Rollover的使用"
 keywords: "ElasticSearch,RollOver"
 categories: [Search,Distributed]
-tags: [Search,ElasticSearch,RollOver]
+tags: [search,es]
 icon: icon-html
 ---
 # RollOver

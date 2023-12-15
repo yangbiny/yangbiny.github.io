@@ -1,11 +1,10 @@
 ---
-layout: post
 title:  "ElasticSearch 之 master选举"
 date:   2019-08-11
 desc: "ElasticSearch master选举"
 keywords: "ElasticSearch,master"
 categories: [Search]
-tags: [集群,分布式,ElasticSearch]
+tags: [es]
 icon: icon-html
 ---
 ## 什么是master

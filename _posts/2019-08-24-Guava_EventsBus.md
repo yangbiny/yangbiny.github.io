@@ -1,11 +1,10 @@
 ---
-layout: post
 title:  "EventBus"
 date:   2019-08-24
 desc: "Guava之EventBus"
 keywords: "观察者模式,异步消息"
 categories: [Blog]
-tags: [Google,Guava,EventBus,观察者模式]
+tags: [google,guava,event-bus]
 icon: icon-html
 ---
 
